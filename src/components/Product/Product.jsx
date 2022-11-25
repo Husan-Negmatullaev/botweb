@@ -216,7 +216,7 @@ const ProductList = () => {
                                         </div>
                                         <div className="cafe-order-item-label">
                                             <div className="cafe-order-item-title">
-                                                {item?.name}
+                                                {parse(item?.name)}
                                                 <span className="cafe-order-item-counter">
                                                 <span className="js-order-item-counter"> {item?.count} </span>x</span>
                                             </div>
