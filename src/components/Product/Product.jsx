@@ -247,7 +247,7 @@ const ProductList = () => {
                                 </picture>
                             </div>
                             <div className="cafe-item-label">
-                                <span className="cafe-item-title">{parse(product?.name)} STATICA</span>
+                                <span className="cafe-item-title">{parse(product?.name)}</span>
                             </div>
                             <div className="cafe-item-label-price">
                                 <span className="cafe-item-price">{product?.price} руб</span>
